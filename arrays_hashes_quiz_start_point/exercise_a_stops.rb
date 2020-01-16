@@ -25,6 +25,8 @@ p stops.length()
 p stops[2]
 p stops[-4]
 p stops.at(2)
+p stops.fetch(2)
+p stops[2..2]
 
 #9. Reverse the positions of the stops in the array
 stops.reverse!()
